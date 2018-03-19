@@ -71,5 +71,54 @@ border-right: none;
     
 }
 
+.greenblock {
+    margin-left:371px;
+    margin-right:371px;
+    margin-top: 20px;
+    background: #8da987;
+    height: 212px;
+            
+}
+
+.About{
+    margin-left: 225px;
+    font-size: 50px;
+   font-family: serif;
+    
+    
+}
+
+
+
+.blueblock{
+    background: #9aaead;
+
+
+    margin-left: 371px;
+    margin-right: 1075px;
+    height: 920px;
+    
+
+}
+
+.creamboxx {
+    
+    margin-left: 215px;
+    margin-right: 71px;
+    background: #dad9c8;
+    width: 709px;
+    height: 920px;
+}
+
+.nav2{
+ 
+    
+    
+}
+  
+
+
+
+
 
 
