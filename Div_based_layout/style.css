@@ -77,48 +77,52 @@ border-right: none;
     margin-top: 20px;
     background: #8da987;
     height: 212px;
+    font-size: 50px;
+    color: white;
+    text-align:left;
+    
             
 }
 
-.About{
-    margin-left: 225px;
-    font-size: 50px;
-   font-family: serif;
+.div.relative{
+    position: static;
+    
+    
+    
     
     
 }
+
+
 
 
 
 .blueblock{
     background: #9aaead;
-
-
+    color: white;
     margin-left: 371px;
     margin-right: 1075px;
     height: 920px;
+
     
 
 }
 
 .creamboxx {
     
-    margin-left: 215px;
+    margin-left: 220px;
     margin-right: 71px;
     background: #dad9c8;
-    width: 709px;
+    width: 702px;
     height: 920px;
 }
 
-.nav2{
- 
-    
-    
+
+
+.paperplane{
+    height: 212px;
+    margin-top: 20px;
 }
-  
-
-
-
 
 
 
