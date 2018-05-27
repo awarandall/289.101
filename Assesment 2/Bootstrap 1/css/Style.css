@@ -3,18 +3,17 @@ body{
     padding: 0;font-family: sans-serif;
     font-family: sans-serif;
     font-weight: bold;
-    
-        
-    
-    
+   
     
 }
+
+
 
 .logo img{
     width: 200px;
     position: absolute;
     left: 30px;
-    top: 20px;
+    top: 68px;
 }
 
 /* Menu */
@@ -24,6 +23,7 @@ nav {
     background-color: white;
     color: black;
     text-align: right;
+    margin-top: 50px;
 
 }
 
@@ -41,7 +41,7 @@ ul li{
     padding: 0px;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 20px;
+    margin-top: 50px;
    
     
    
@@ -55,6 +55,7 @@ ul li{
 ul li a{
     text-decoration: none;
     color: black;
+   
      
 }
 
@@ -88,11 +89,17 @@ ul li a: hover {
         
     }
     
+    ul li a{
+    text-decoration: none;
+    color: white;
+     
+}
+    
 
 ul {
     width: 100%;
     display: none;
-    background: #676767;
+    background: #797979;
 
     
     
@@ -150,6 +157,7 @@ ul li{
     height: 500px;
     background-color: #EFEFEF;
     text-align: center;
+    margin-top: 50px;
 
 }
 
@@ -165,7 +173,7 @@ ul li{
 
 .grey{
     width: 100%;
-    height: 1500px;
+    height: 1250px;
     background-color: #EFEFEF;
 }
 
@@ -231,6 +239,7 @@ ul li{
 h3{
     font-weight: normal;
     text-align: center;
+    margin-top: 50px;
 }
 
 
@@ -261,6 +270,17 @@ h3{
      font-family: 'Abril Fatface', cursive;
     color: #FFFF;
 
+}
+
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: dimgrey;
+    color: white;
+    text-align: center;
 }
 
 
