@@ -1,36 +1,302 @@
-body
-{
+body{
     margin: 0;
-    padding: 0;
+    padding: 0;font-family: sans-serif;
     font-family: sans-serif;
+    font-weight: bold;
+    
+        
+    
+    
+    
 }
 
-.grey{
-    height: 100px;
-    background-color: gainsboro;
+.logo img{
+    width: 200px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
 }
 
-.row h1{
+/* Menu */
+
+nav {
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: right;
+
+}
+
+
+.ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+   
+    
+   
+  
+    
+}
+
+
+
+
+ul li a{
+    text-decoration: none;
+    color: black;
+     
+}
+
+ul li a: hover {
+    background: #D7D7D7;
+}
+
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    
+    text-align: right;
+    box-sizing: border-box;
+    font-size: 30px;
+    display: none;
+}
+
+.toggle img{
+    width: 150px;
+    margin-right: 600px;
+    margin-bottom: 100px;
+}
+
+@media (max-width:768px) {
+    .toggle {
+        display: block;
+    }
+    .welcome {
+        width: 400px;
+        
+    }
+    
+
+ul {
+    width: 100%;
+    display: none;
+    background: #676767;
+
+    
+    
+}
+
+ul li{
+    display: block;
+    text-align: center;
+    
+    
+}
+    
+
+    
+.active{
+        display: block
+    }
+    
+.menu li {
+       text-align: center;
+    }
+}
+    
+/* Menu finish */
+    
+@media (max-width:992px) {
+        .welcome {
+            text-align: center;
+            
+        }
+    }
+    
+
+
+
+
+
+
+
+
+    
+/* Home */
+
+    
+.welcome {
+     font-family: 'Abril Fatface', cursive;
+     color: #FFFF;
+    
+
+}
+
+
+.white{
+    width: 100%;
+    height: 500px;
+    background-color: #EFEFEF;
+    text-align: center;
+
+}
+
+.white img {
+    width: 350px;
+}
+
+.white h1{
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.grey{
+    width: 100%;
+    height: 1500px;
+    background-color: #EFEFEF;
+}
+
+.whiteone img {
+    width: 350px;
+    
+}
+
+.whiteone{
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whiteone h3{
+    width: 350px;
+    margin-top: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.whitetwo{
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.whitetwo img {
+    width: 350px;
+    
+}
+
+.whitetwo h3{
+    width: 350px;
+    margin-top: 30px;
+    font-weight: normal;
+     text-align: center;
+}
+
+.whitethree{
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.whitethree img {
+    width: 350px;
+    
+}
+
+.whitethree h3{
+    width: 350px;
+    margin-top: 30px;
+    font-weight: normal;
+     text-align: center;
+}
+
+h3{
+    font-weight: normal;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* About */
+
+.about {
+     font-family: 'Abril Fatface', cursive;
+    color: #FFFF;
+
+}
+
+/* Merch */
+
+.merch {
+     font-family: 'Abril Fatface', cursive;
+    color: #FFFF;
+
+}
+
+/* Contact */
+
+.contact {
+     font-family: 'Abril Fatface', cursive;
+    color: #FFFF;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
 /* xs devices */
-body { background-color: red }
+body { background-color: re}
+
 /* sm devices */
 @media (min-width: 576px) {
-body { background-color: orange }
+body { background-color: orang}
 }
 /* md devices */
 @media (min-width: 768px) {
-body { background-color: yellow }
+body { background-color: yello}
+    
 }
 /* lg devices */
 @media (min-width: 992px) {
-body { background-color: green }
+body { background-color: gree}
 }
 12 / 14
 /* xl devices */
 @media (min-width: 1200px) {
-body { background-color: blue }
+body { background-color: blu }
 }

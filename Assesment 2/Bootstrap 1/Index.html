@@ -15,36 +15,92 @@
       
       
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+       
+   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Archivo+Black|Pacifico" rel="stylesheet">
+       
       
-    <style>
-        *{outline: #EEE solid 2px};  
-    </style>
+<style>
+
+ *{outline: #BD00FF solid 1px};  
+
+</style>
       
    </head>
     
        <body>
            
-           <div class="container">
-               
-               <div class="row">
-                  
-                   <div class="col-sm-12 grey"></div>
-                   <div class="col-sm-6 grey"></div>
-                   <div class="col-sm-6 grey"></div>
-                   <div class="col-sm-6 grey"></div>
-                   <div class="col-sm-6 grey"></div>
-                   
-               
-               
+           
+           
+           <nav>
+               <div class="logo">
+                   <a href="Index.html"><img src="Alt%20logo.png"></a></div>
+               <div class="toggle">
+               <i class="fas fa-bars menu"></i>  
                </div>
-             
-           </div>
-  
+               
+               
+               
+              
+               <ul>
+                   
+                   <li><a href="Index.html">Home</a></li>
+                   <li><a href="About.html">About</a></li>
+                   <li><a href="Merchandise.html">Merchandise</a></li>
+                   <li><a href="Contact.html">Contact Us</a></li>
+                   
+         
+               </ul>
+            
+           </nav>
+           
+           
+           <div class="container">
+           
+                 <div class="row">
+               
+                   <div class="col-sm-12 white">
+                     <div class="welcome"><h1> Welcome to </h1></div>
+                     <img src="Logo%20(white).png">
+                   </div>
+                     <div class="col-sm-12 grey">
+                         <div class="col-sm-12 whiteone ">
+                         <img src="bossman.jpg">
+                         <h3> Here at Dunder Mifflin we only provide the best paper products for the best prices. </h3></div>
+                           <div class="col-sm-12 whitetwo ">
+                         <img src="full%20cast.jpeg">
+                         <h3> Our team are imaculate, always on time, and always ready to help. </h3></div>
+                           <div class="col-sm-12 whitethree ">
+                         <img src="A%20Team.jpg">
+                         <h3> We Are, the leading company in all things paper. </h3></div>
+                         
+                         <h3> To find out more visit the links above and join the movement that is Dunder Mifflin </h3>
+                     
+                     
+                     </div>
+               
+                     </div>
+                    
+               
+               
+                </div>
+               
+          
+           
+        
+    
     
       
           <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+           
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.menu').click(function(){
+              $('ul').toggleClass('active');
+          })  
+        })
+    </script>
     
     <script src="js/bootstrap.bundle.min.js"></script>
             
