@@ -3,6 +3,7 @@ body{
     padding: 0;font-family: sans-serif;
     font-family: 'Istok Web', sans-serif;
     font-weight: bold;
+    color: black;
    
     
 }
@@ -12,10 +13,10 @@ body{
 
 
 .logo img{
-    width: 300px;
+    width: 230px;
     position: absolute;
     left: 30px;
-    top: 62px;
+    top: 65px;
 }
 
 .logo img: Hover{
@@ -385,6 +386,7 @@ h3{
     background-color: #EFEFEF;
     text-align: center;
     margin-top: 50px;
+    text-decoration: none;
 
 }
 
@@ -396,6 +398,7 @@ h3{
     padding: 10px;
     margin-left: 0px;
     background: #FFFF;
+   
 }
 
 .cap img{
@@ -408,7 +411,10 @@ h3{
     width: 200px;
      height: 100px;
     text-align: center;
+    
 }
+
+
 
 .hood{
     width: 100%;
@@ -526,6 +532,8 @@ h3{
 
 
 
+
+
 /* Contact */
 
 .contact {
@@ -615,6 +623,7 @@ input[type=text], select {
     color: white;
     margin-top: 50px;
     font-size: 12px;
+    text-decoration: none;
 
 }  
 
@@ -623,6 +632,7 @@ input[type=text], select {
    
     margin-top: 200PX;
     margin-left: 00px;
+    text-decoration: none;
   
 
 }
@@ -633,6 +643,7 @@ input[type=text], select {
     background-color: #EFEFEF;
     text-align: center;
     margin-top: 50px;
+    text-decoration: none;
 }
 
 .back
